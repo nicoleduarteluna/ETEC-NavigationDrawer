@@ -76,17 +76,31 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
+        String nome = null;
+        int idImagem = 0;
+
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_por1) {
+           nome ="Pôr do sol com mar de fundo";
+           idImagem  = R.drawable.i1;
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_por2) {
+            nome ="Pôr do sol com árvore de fundo";
+            idImagem  = R.drawable.i2;
 
-        } else if (id == R.id.nav_tools) {
+        } else if (id == R.id.nav_por3) {
+            nome ="Pôr do sol com fundo rosa";
+            idImagem  = R.drawable.i3;
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_por4) {
+            nome ="Pôr do sol em São Francisco";
+            idImagem  = R.drawable.i4;
+
+        } else if (id == R.id.nav_por5) {
+            nome ="Pôr do sol em Nova Iorque";
+            idImagem  = R.drawable.i5;
 
         } else if (id == R.id.nav_send) {
 
