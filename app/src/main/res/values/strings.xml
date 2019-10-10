@@ -7,10 +7,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
+    <string name="menu_por1">Pôr do sol com mar de fundo</string>
+    <string name="menu_por2">Pôr do sol com árvore de fundo </string>
+    <string name="menu_por3">Pôr do sol com fundo rosa</string>
+    <string name="menu_por4">Pôr do sol em São Francisco </string>
+    <string name="menu_por5">Pôr do sol em Nova Iorque </string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 </resources>
